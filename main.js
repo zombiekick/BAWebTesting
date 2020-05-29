@@ -10,7 +10,7 @@ function SetupAnim(className, controller)
                             triggerHook: 0.9,
                         })
                         .setClassToggle(revealElements[i], "visible") // add class toggle
-                        .addIndicators({name: className + " " + (i+1) }) // add indicators (requires plugin)
+                        /*.addIndicators({name: className + " " + (i+1) }) // add indicators (requires plugin)*/
                         .addTo(controller);
     }
 }
