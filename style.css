@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("./textures/BG.png");
+    background-image: url("./textures/BG_medium.png");
     background-blend-mode: color-burn;
     background-position: center;
     background-size: cover;
