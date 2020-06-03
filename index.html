@@ -21,10 +21,13 @@
 
     <div class ="container">
             <a class="button-shell" href="">
-                <img id="button-main" class="left-anim" src="textures/Button1/button1_idle_very_small.png">
+                <!--<div class="tilt-container" data-tilt data-tilt-glare="true" data-tilt-scale="1.1">-->
+                <img id="button-main" class="button left-anim" src="textures/Button1/button1_idle_very_small.png"
+                data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
+               <!--</div>-->
             </a>
     </div>
-    
+       
     <img class="svgwave" src="textures/wave1.svg">
     <div id="wave1">
         <div class="container">
@@ -35,7 +38,8 @@
                     <p class="left-anim">The world is changing, and so is how we communicate. Let us help you create meaniful virtual engagements with your audience.</p>
                 </section>
                 <a class="button-shell" href="">
-                    <img id="button-s1" class="down-anim" src="textures/Button2/button_2_small.png">
+                    <img id="button-s1" class="button down-anim" src="textures/Button2/button_2_small.png"
+                    data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
                 </a>
             </div>
         </div>
@@ -49,7 +53,8 @@
                 <p class="right-anim">Bitters unicorn leggings pinterest bicycle rights sriracha chillwave.</p>
             </section>>
             <a class="button-shell" href="">
-                <img id="button-s2-a" class="down-anim" src="textures/Button3/button_3_small.png">
+                <img id="button-s2-a" class="button down-anim" src="textures/Button3/button_3_small.png"
+                data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
             </a>
         </div>
         <div id="section-two-b">
@@ -58,7 +63,8 @@
                 <p class="left-anim">Kogi vinyl cold-pressed, pabst unicorn scenester adaptogen retro helvetica lo-fi fanny pack poke cardigan austin.</p>
             </section>
             <a class="button-shell" href="">
-                <img id="button-s2-b" class="down-anim" src="textures/Button3/button_3_small.png">
+                <img id="button-s2-b" class="button down-anim" src="textures/Button3/button_3_small.png"
+                data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
             </a>
         </div>
     </div>
@@ -76,14 +82,16 @@
             <h1 class="right-anim">PODCASTS</h1>
             <p class="left-anim">Live-edge fingerstache cray cred prism. Edison bulb tilde selfies four dollar toast occupy. Ennui chillwave forage tumblr ugh.</p>
             <a class="button-shell" href="">
-                <img id="button-s3-a" class="down-anim" src="textures/Button3/button_3_small.png">
+                <img id="button-s3-a" class="button down-anim" src="textures/Button3/button_3_small.png"
+                data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
             </a>
         </div>
         <div id="section-three-b">
             <h1 class="right-anim">REMOTE VIDEO PRODUCTION</h1>
             <p class="right-anim">I‘m baby lomo selvage fanny pack sriracha, YOLO cloud bread chicharrones irony hashtag squid semiotics tacos.</p>
             <a class="button-shell" href="">
-                <img id="button-s3-b" class="down-anim" src="textures/Button3/button_3_small.png">
+                <img id="button-s3-b" class="button down-anim" src="textures/Button3/button_3_small.png"
+                data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
             </a>
         </div>
       </div>
@@ -98,7 +106,8 @@
         <h1 class="up-anim" style="margin-top:0;">ORDINARY</h1>
 
         <a class="button-shell" href="">
-            <img id="contact-us" class="right-anim" src="textures/Button4/button_4_small.png">
+            <img id="contact-us" class="button right-anim" src="textures/Button4/button_4_small.png"
+            data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
         </a>
       </div>
       <div class="container">
@@ -109,13 +118,16 @@
             </aside>
             <div>
                 <a class="button-shell" href="">
-                    <img src="textures/facebook.svg">
+                    <img src="textures/facebook.svg"
+                    data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
                 </a>
                 <a class="button-shell" href="">
-                    <img src="textures/instagram.svg">
+                    <img src="textures/instagram.svg"
+                    data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
                 </a>
                 <a class="button-shell" href="">
-                    <img src="textures/vimeo.svg">
+                    <img src="textures/vimeo.svg"
+                    data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
                 </a>
             </div>
         </div>
@@ -127,6 +139,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js">
+    $('.js-tilt').tilt({
+        glare: true,
+        maxGlare: 12
+    });
+    </script>
     <script src="main.js"></script>
     <script type="module" src="bundle.js"></script>
   </body>

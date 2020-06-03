@@ -4,8 +4,7 @@
 }
 
 body{
-    background-image: url("./textures/BG_small.png");
-    background-blend-mode: color-burn;
+    background-image: url("./textures/BG_small.png");    
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
@@ -157,6 +156,37 @@ a{
     border:none;
     box-sizing: border-box;
     z-index: 100;
+    text-align: center;
+}
+
+.tilt-container{
+    display:inline-block;
+    box-sizing: border-box;
+    z-index: 100;
+    text-align: center;
+}
+
+.button{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);    
+    /*
+    box-shadow: 10px 20px 27px rgba(0, 0, 0, 0.05);
+    transform-style: preserve-3d;
+    margin: 50px auto;
+    */
+}
+
+.button:hover{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 300ms ease;
+    -webkit-transition: -webkit-filter 300ms ease;
+    /*
+    opacity: 0.6;
+    transition: opacity 300ms ease;
+    -moz-transition: opacity 300ms ease;
+    -webkit-transition: opacity 300ms ease;
+    */
 }
 
 .footer{
@@ -399,6 +429,7 @@ a{
 
 #computer{
     position: absolute;
+    overflow-x: hidden;
     left:35%;
     float:right;
     width:80%;
@@ -416,6 +447,7 @@ a{
 
 #dog{
     position: absolute;
+    overflow-x: hidden;
     width:70%;
     height: auto;
     margin: 0;
@@ -426,7 +458,7 @@ a{
 
 #man{
     position: absolute;
-    overflow: hidden;
+    overflow-x: hidden;
     width:40%;
     height: auto;
     left:65vw;
@@ -484,6 +516,7 @@ a{
     height: 200%;
     background-image: url('./textures/female_2_very_small.png');
     background-size: cover;
+    overflow-x: hidden;
     z-index: 20;
 }
 
