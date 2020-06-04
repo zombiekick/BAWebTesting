@@ -8,6 +8,7 @@ function SetupAnim(className, controller)
                             triggerElement: revealElements[i], // y value not modified, so we can use element as trigger as well
                             offset: 70,												 // start a little later
                             triggerHook: 0.9,
+                            reverse: false,
                         })
                         .setClassToggle(revealElements[i], "visible") // add class toggle
                         /*.addIndicators({name: className + " " + (i+1) }) // add indicators (requires plugin)*/
