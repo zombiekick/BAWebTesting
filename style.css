@@ -237,6 +237,14 @@ a{
     width: 50%;
 }
 
+#section-one h1{
+    text-align: right;
+    line-height: 80%;
+    font-size: calc(5.5vw);
+    font-weight: bold;
+    padding: 2vw;
+}
+
 #section-two-a{
     position: relative;
     float: right;
@@ -265,14 +273,6 @@ a{
     color:white;
     width: 50%;
     z-index: 1;
-}
-
-#section-one h1{
-    text-align: right;
-    line-height: 80%;
-    font-size: calc(5.5vw);
-    font-weight: bold;
-    padding: 2vw;
 }
 
 #section-two-a h1{
@@ -512,7 +512,7 @@ a{
     position: relative;
     margin-top: -15vw;
     min-height: 100vw;
-    width: 120%;
+    width: 100%;
     height: 200%;
     background-image: url('./textures/female_2_very_small.png');
     background-size: cover;
@@ -557,4 +557,127 @@ a{
     font-family: CenturyGothic;
     src:url(./fonts/GOTHIC.TTF) format('truetype');
     font-weight:normal;
+}
+
+@media(max-width:600px){
+	#section-one{
+		width:100%;
+		float:none;
+    }
+    
+    #section-one h1{
+        font-size: 12vw;
+    }
+
+    #section-one p{
+        font-size: 4vw;
+    }
+
+    #button-s1{
+        width: 60%;
+    }
+	
+	#section-two-a{
+		width:100%;
+		float:none;
+    }
+
+    #section-two-a h1{
+        font-size: 12vw;
+    }
+
+    #section-two-a p{
+        font-size: 4vw;
+    }
+
+    #button-s2-a{
+        width:60%;
+    }
+
+    #section-two-b{
+        margin-top: 15vw;
+		width:100%;
+		float:none;
+    }
+
+    #section-two-b h1{
+        font-size: 12vw;
+    }
+
+    #section-two-b p{
+        font-size: 4vw;
+    }
+
+    #button-s2-b{
+        width:60%;
+    }
+
+    #section-three-a{
+		width:100%;
+		float:none;
+    }
+
+    #section-three-a h1{
+        font-size: 12vw;
+    }
+
+    #section-three-a p{
+        font-size: 4vw;
+    }
+
+    #button-s3-a{
+        width: 60%;
+    }
+
+    #section-three-b{
+        margin-top: 20vw;
+		width:100%;
+		float:none;
+    }
+
+    #section-three-b h1{        
+        font-size: 12vw;
+    }
+
+    #section-three-b p{
+        font-size: 4vw;
+    }
+
+    #button-s3-b{
+        width: 60%;
+    }
+
+    #female-photo h1{
+        font-size: calc(19.5vw);
+    }
+
+    #contact-us{
+        width: 50%;
+    }
+
+    #virtual-comms{
+        width:100%;
+		float:none;
+    }
+
+    #button-main{
+        width: 70%;
+        left: 15%;
+    }
+
+    #computer{
+        display:none;
+    }
+
+    #dog{
+        display: none;
+    }
+
+    #my_canvas3{
+        display: none;
+    }
+
+    #man{
+        display: none;
+    }
 }
