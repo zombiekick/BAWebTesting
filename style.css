@@ -125,11 +125,11 @@ a{
     -ms-transform: translateX(25vw) scale(0);
     -o-transform: translateX(25vw) scale(0);
     transform: translateX(25vw) scale(0);
-    -webkit-transition: all 1.6s ease-out;
-    -moz-transition: all 1.6s ease-out;
-    -ms-transition: all 1.6s ease-out;
-    -o-transition: all 1.6s ease-out;
-    transition: all 1.6s ease-out;
+    -webkit-transition: all 1.2s ease-out;
+    -moz-transition: all 1.2s ease-out;
+    -ms-transition: all 1.2s ease-out;
+    -o-transition: all 1.2s ease-out;
+    transition: all 1.2s ease-out;
 }
 
 .podcast-line-animation.visible{
@@ -332,6 +332,7 @@ a{
     color:white;
     width: 60%;
     z-index: 1;
+    margin-top: 5%;
 }
 
 #section-three-b{
@@ -540,7 +541,7 @@ a{
     width:57%;
     height: 2px;
     left: 23vw;
-    top:1.5vw;
+    top:5.5vw;
     background-color: #ffffff;
     display: inline-block;
     margin: auto;
@@ -550,10 +551,10 @@ a{
 #remote-video-line{
     overflow:visible;
     position: absolute;
-    width:22.5%;
+    width:22%;
     height: 2px;
     left: 50vw;
-    top:26.1vw;
+    top:30.1vw;
     background-color: #ffffff;
     display: inline-block;
     margin: auto;
@@ -566,7 +567,7 @@ a{
     width:40%;
     height: auto;
     left:65vw;
-    padding-top: 20vw;
+    padding-top: 22vw;
     box-sizing:border-box;
     z-index: 20;
 }
@@ -612,7 +613,7 @@ a{
     mix-blend-mode: color-burn;
 }
 
-#female-photo {
+#female-photo{
     position: relative;
     margin-top: -15vw;
     min-height: 100vw;
