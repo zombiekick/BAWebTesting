@@ -800,6 +800,10 @@ a{
         display: none;
     }
 
+    #webm_video{
+        display: none;
+    }
+
     #man{
         display: none;
     }
