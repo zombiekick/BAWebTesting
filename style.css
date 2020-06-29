@@ -581,6 +581,15 @@ a{
     z-index: 1;
 }
 
+#webm_video{
+    position: absolute;
+    width: 60vw;
+    height: 60vw;
+    left:42vw;
+    margin-top: -4vw;    
+    z-index: 1;
+}
+
 #wave1{
     position: relative;
     width: 100%;
